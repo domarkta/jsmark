@@ -1,7 +1,7 @@
 let but = document.querySelector(".julia_button")
 function showAge() {
     let age = prompt()
-    if (age >= 14 && age <= 90) {
+    if (age >= 14 && age <= 99) {
         alert("находится")
         // but.style.background = 'green'
     } else {
@@ -11,3 +11,4 @@ function showAge() {
     
 }
 but.addEventListener("click",showAge)
+
